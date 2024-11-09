@@ -6,6 +6,9 @@ This module is will be used in Technical testing only and not allowed for public
 
   
 
+
+
+
 ## Prerequisites
 
     
@@ -72,11 +75,15 @@ pip install -r requirements.txt`
     
 4.  Search for **Leave Management** and click **Install**.
     
+## Features Testing
 
-## Usage
+Once Installed, first navigate to **Emplyoee** to create employees
 
-Once installed, navigate to the **Leave Management** menu in the Odoo dashboard to:
+-- Create 1 HR employee
+-- Create 1 General employee
 
--   Apply for leave
--   Approve or reject leave requests
+after that, navigate to the **Leave Management** menu in the Odoo dashboard to:
+
+-   Apply for leave ( All Employee )
+-   Approve or reject leave requests ( Only Specific )
 -   View leave history
