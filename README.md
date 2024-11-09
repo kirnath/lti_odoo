@@ -36,7 +36,7 @@ If you have the module stored in a Git repository, clone it to your local Odoo a
 
 ```bash
 cd  /path/to/your/odoo/custom_addons
-git  clone  https://github.com/yourusername/leave_management.git
+git  clone  https://github.com/kirnath/lti_odoo
 ```
 ### 2. Install Required Python Libraries
 
@@ -59,7 +59,7 @@ pip install -r requirements.txt`
 2.  Add the module directory to the `addons_path`:
     
     `addons_path = addons,custom_addons` 
-    
+
 3. Adjust the database settings to your environments
 
 ### 4. Update App List and Install Module
