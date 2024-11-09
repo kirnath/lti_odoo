@@ -42,7 +42,7 @@ git  clone  https://github.com/kirnath/lti_odoo
 
 If your module requires additional Python libraries, install them via `pip`.
 
-If your OS is debian it is recommended to install dependencies by setup/debinstall.sh by running
+If your **OS is debian** it is recommended to install dependencies by setup/debinstall.sh by running
 ```bash
 cd /path/to/your/odoo
 bash ./setup/debinstall.sh
