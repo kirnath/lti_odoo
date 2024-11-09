@@ -79,8 +79,9 @@ pip install -r requirements.txt`
 
 Once Installed, first navigate to **Emplyoee** to create employees
 
--- Create 1 HR employee
--- Create 1 General employee
+1.  Create 1 HR employee
+
+2.  Create 1 General employee
 
 after that, navigate to the **Leave Management** menu in the Odoo dashboard to:
 
