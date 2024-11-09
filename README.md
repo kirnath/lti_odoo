@@ -41,21 +41,8 @@ If you have the module stored in a Git repository, clone it to your local Odoo a
 cd  /path/to/your/odoo/custom_addons
 git  clone  https://github.com/kirnath/lti_odoo
 ```
-### 2. Install Required Python Libraries
 
-If your module requires additional Python libraries, install them via `pip`.
-
-If your **OS is debian** it is recommended to install dependencies by setup/debinstall.sh by running
-```bash
-cd /path/to/your/odoo
-bash ./setup/debinstall.sh
-```
-Otherwise you can install dependencies by
-```bash
-pip install -r requirements.txt` 
-```
-
-### 3. Configure the Module in Odoo
+### 2. Configure the Module in Odoo
 
 1.  Open the Odoo configuration file (`odoo.conf` or similar).
     
@@ -65,7 +52,7 @@ pip install -r requirements.txt`
 
 3. Adjust the database settings to your environments
 
-### 4. Update App List and Install Module
+### 3. Update App List and Install Module
 
 1.  Restart the Odoo service to recognize the new module.
     
