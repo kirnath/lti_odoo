@@ -60,6 +60,7 @@ pip install -r requirements.txt`
     
     `addons_path = addons,custom_addons` 
     
+3. Adjust the database settings to your environments
 
 ### 4. Update App List and Install Module
 
